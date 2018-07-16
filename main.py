@@ -398,7 +398,7 @@ model.load(291)
 while(True):
     print("\n Round " + str(model.GAN.steps) + ":")
     
-    model.evaluate(1)
+    model.evaluate()
     
     time.sleep(0.05)
 
